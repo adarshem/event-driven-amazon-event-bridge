@@ -1,0 +1,18 @@
+{
+  "name": "event-driven-orders",
+  "version": "1.0.0",
+  "description": "Event-driven order processing using Amazon EventBridge",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher/index.js",
+    "order-consumer": "node consumers/order-consumer/index.js",
+    "analytics-consumer": "node consumers/analytics-consumer/index.js",
+    "notification-consumer": "node consumers/notification-consumer/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-eventbridge": "^3.300.0",
+    "@aws-sdk/client-sqs": "^3.300.0",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.3"
+  }
+} 
