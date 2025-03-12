@@ -26,8 +26,8 @@ The system follows a publisher-subscriber pattern with these components:
 
 1. **Clone the repository and install dependencies**
 ```bash
-git clone <repository-url>
-cd event-driven-orders
+git clone https://github.com/adarshem/event-driven-amazon-event-bridge.git
+cd event-driven-amazon-event-bridge
 npm install
 ```
 2. **Set up AWS resources**
